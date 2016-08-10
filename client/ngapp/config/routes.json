@@ -26,5 +26,9 @@
   "/debug": {
     "controller": "ChangeCtrl",
     "templateUrl": "/views/changes.html"
+  },
+  "/mymodel": {
+    "controller": "MymodelCtrl",
+    "templateUrl": "/views/mymodel.html"
   }
 }

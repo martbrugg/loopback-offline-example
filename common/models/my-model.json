@@ -1,0 +1,25 @@
+{
+  "name": "MyModel",
+  "base": "PersistedModel",
+  "strict": "throw",
+  "persisteUndefinedAsNull": true,
+  "trackChanges": true,
+  "properties": {
+    "id": {
+      "id": true,
+      "type": "string",
+      "defaultFn": "guid"
+    },
+    "name": "string",
+    "completed": {
+      "type": "boolean",
+      "default": false
+    },
+    "email": {
+      "type": "string"
+    },
+    "created": {
+      "type": "number"
+    }
+  }
+}

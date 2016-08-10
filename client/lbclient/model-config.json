@@ -10,5 +10,11 @@
   },
   "user": {
     "dataSource": "remote"
+  },
+  "MyModel": {
+    "dataSource": "local"
+  },
+  "RemoteMyModel": {
+    "dataSource": "remote"
   }
 }

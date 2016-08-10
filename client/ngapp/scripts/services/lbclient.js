@@ -23,4 +23,5 @@ angular.module('loopbackExampleFullStackApp')
   .value('RemoteTodo', client.models.RemoteTodo)
   .value('sync', client.sync)
   .value('network', client.network)
-  .value('getReadableModelId', client.getReadableModelId);
+  .value('getReadableModelId', client.getReadableModelId)
+  .value('MyModel', client.models.MyModel);
